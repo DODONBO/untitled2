@@ -14,7 +14,7 @@
               <div class="partner_logo"></div>
             </div>
             <div class="partner_name_box">
-              <span class="partner_name">한국건축가협회</span><br>
+              <span class="partner_name">한국건축가협회</span>
               <span class="partner_type">협회/단체</span>
             </div>
           </div>
@@ -39,7 +39,7 @@
               <div class="partner_logo"></div>
             </div>
             <div class="partner_name_box">
-              <span class="partner_name">(주)토문건축사사무소</span><br>
+              <span class="partner_name">(주)토문건축사사무소</span>
               <span class="partner_type">건축사사무소(설계,감리,디자인)</span>
             </div>
           </div>
@@ -64,7 +64,7 @@
               <div class="partner_logo"></div>
             </div>
             <div class="partner_name_box">
-              <span class="partner_name">타이가</span><br>
+              <span class="partner_name">타이가</span>
               <span class="partner_type">시공사(종합건설가,돔구조,막구조시공사)</span>
             </div>
           </div>

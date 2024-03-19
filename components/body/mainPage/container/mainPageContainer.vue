@@ -8,6 +8,7 @@
     <MainPageMaterialContainer/>
     <MainPageModelContainer/>
     <MainPagePartnerContainer/>
+    <MainPageSignUpSec/>
   </div>
 </template>
 
@@ -20,15 +21,11 @@ import MainPagePopularMaterialSec from "../section/material/mainPagePopularMater
 import MainPageMaterialContainer from "../container/mainPageMaterialContainer.vue";
 import MainPageModelContainer from "../container/mainPageModelContainer.vue";
 import MainPagePartnerContainer from "../container/mainPagePartnerContainer.vue";
-//
-//
-// library.add(fas, far)
-// Vue.component('font-awesome-icon', FontAwesomeIcon)
-// Vue.config.productionTip = false
-//
+import MainPageSignUpSec from "../section/mainPageSignUpSec.vue";
 
 export default {
   components: {
+    MainPageSignUpSec,
     MainPagePartnerContainer,
     MainPageModelContainer,
     MainPageMaterialContainer,

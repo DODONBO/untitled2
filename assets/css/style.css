@@ -81,14 +81,22 @@ span.blue { color: #4a81c9; }
 .contents_wrap { display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap; }
 .material_wrap,
 .category_wrap { display: flex; flex-direction: row; justify-content: space-between; }
-.contents_wrap.partner .contents_box { width: 350px; }
-
+.contents_wrap.partner { margin-top: 30px; }
+.contents_wrap.partner .contents_box { width: 350px; padding: 10px; border-radius: 10px; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23); }
+.partner_name_wrap { display: flex; flex-direction: row; justify-content: left; margin-bottom: 10px; }
+.partner_logo { width: 70px; height: 70px; border: 1px solid #eee; border-radius: 100%; background-color: #5b728d; margin: 0 15px; }
+.partner_img_wrap { display: flex; flex-direction: row; justify-content: space-between; }
+.partner_img { width: 100px; height: 100px; background-color: #5b728d; }
+.partner_name { display: block; line-height: 40px; font-size: 24px; font-weight: 600; }
+.partner_type { font-size: 14px; color: #5b728d; font-weight: 600;}
 
 .hot_box { width: 220px; padding: 60px 10px; }
 .contents_box { width: 190px; padding: 30px 0 0; }
 .material_box { width: 160px; margin-top: 20px; }
 .category_box { width: 80px; text-align: center; margin-top: 20px; }
 .category_wrap.model .category_box { width: 100px; }
+.category_wrap.partner .category_box { width: 130px; }
+
 .img_box { position: relative; margin-bottom: 20px; }
 .img_box.contents { margin-bottom: 0; }
 .img_box .img { width: 180px; height: 180px; border-radius: 100%; background-color: #5b728d; box-shadow: 0px 3px 6px #00000029; }
@@ -97,6 +105,8 @@ span.blue { color: #4a81c9; }
 .category_box .img_box { margin-bottom: 0; }
 .category_box .img_box .img { width: 80px; height: 80px; }
 .category_wrap.model .category_box .img_box .img { width: 100px; height: 60px; border-radius: 10px; }
+.category_wrap.partner .category_box .img_box .img { width: 130px; height: 60px; border-radius: 10px; }
+
 .img_box .num { position: absolute; left: 0; top: 0; border-radius: 4px; background-color: #e14242; color: #fff; font-weight: bold; width: 44px; height: 44px; line-height: 44px; text-align: center; font-size: 24px; }
 .material_box .img_box .num { border-radius: 100%; left: 10px; top: 10px; background-color: rgba(0, 0, 0, 0.35); }
 
@@ -105,6 +115,9 @@ span.blue { color: #4a81c9; }
 .material_box .box_title { line-height: 20px; color: #444; }
 .contents_box .box_title { color: #444; }
 .banner { position: relative; width: 1100px; height: 140px; border-radius: 10px; overflow: hidden; margin: 60px auto; text-align: center; background-color: #5b728d; }
+
+.sign_up_wrap { display: flex; flex-direction: row; justify-content: space-between; margin-top: 40px; }
+.sign_up_box { width: 48%; height: 300px; border-radius: 20px; background-color: #5b728d; }
 
 
 #footer { width: 100%; height: 295px; background-color: #252525; }

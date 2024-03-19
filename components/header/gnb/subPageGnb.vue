@@ -119,37 +119,35 @@
   </nav>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-import {library} from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+<script setup lang="ts">
+import {createApp} from "vue";
+import {library} from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from "@fortawesome/free-regular-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import $ from 'jquery';
 
+const app = createApp({});
+
 library.add(fas, far)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.config.productionTip = false
-export default class subPageGnb extends Vue {
+app.component('font-awesome-icon', FontAwesomeIcon)
+function checkBoxAndRemoveOthers(e: Event): void {
+  const $currentTarget: JQuery<EventTarget> = $(e.currentTarget!);
 
-  private checkBoxAndRemoveOthers(e: Event): void {
-    const $currentTarget: JQuery<EventTarget> = $(e.currentTarget!);
+  $currentTarget.siblings().children('.check_box_wrap').children('.check_box').removeClass('on');
+  $currentTarget.children('.check_box_wrap').children('.check_box').addClass('on');
+}
 
-    $currentTarget.siblings().children('.check_box_wrap').children('.check_box').removeClass('on');
-    $currentTarget.children('.check_box_wrap').children('.check_box').addClass('on');
-  }
+function toggleClassOn(e: Event): void {
+  const $currentTargetParents: JQuery<EventTarget> = $(e.currentTarget!).parent('li');
 
-  private toggleClassOn(e: Event): void {
-    const $currentTargetParents: JQuery<EventTarget> = $(e.currentTarget!).parent('li');
+  if ($currentTargetParents.hasClass('on')) {
+    $('#gnb>li').removeClass('on');
 
-    if ($currentTargetParents.hasClass('on')) {
-      $('#gnb>li').removeClass('on');
+  } else {
+    $('#gnb>li').removeClass('on');
 
-    } else {
-      $('#gnb>li').removeClass('on');
-
-      $currentTargetParents.addClass('on');
-    }
+    $currentTargetParents.addClass('on');
   }
 }
 </script>
