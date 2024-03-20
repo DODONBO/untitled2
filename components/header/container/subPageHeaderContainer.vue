@@ -32,12 +32,12 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 import $ from 'jquery';
 import SubPageGnb from "../gnb/subPageGnb.vue";
 
-  const app = createApp({});
+const app = createApp({});
 
-  library.add(fas, far)
-  app.component('font-awesome-icon', FontAwesomeIcon)
+library.add(fas, far)
+app.component('font-awesome-icon', FontAwesomeIcon)
 
-  function toggleSearchWrap(event: Event): void {
+function toggleSearchWrap(event: Event): void {
     const $currentTargetParent = $(event.currentTarget!).parent('.search_wrap');
 
     if ($currentTargetParent.hasClass('on')) {
@@ -46,9 +46,9 @@ import SubPageGnb from "../gnb/subPageGnb.vue";
     } else {
       $currentTargetParent.addClass('on');
     }
-  }
+}
 
-  function minimizeSearchWrap(): void {
+function minimizeSearchWrap(): void {
     $('.search_wrap').removeClass('on');
-  }
+}
 </script>
