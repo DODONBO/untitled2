@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import SubPageHeaderContainer from "../../components/header/container/subPageHeaderContainer.vue";
-import SubPageContainer from "../../components/body/container/subPageContainer.vue";
+import SubPageContainer from "../../components/body/subPage/container/subPageContainer.vue";
 import SubPageFooterContainer from "../../components/footer/container/subPageFooterContainer.vue";
 
 export default {
