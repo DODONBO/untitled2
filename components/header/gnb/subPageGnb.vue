@@ -131,23 +131,24 @@ const app = createApp({});
 
 library.add(fas, far)
 app.component('font-awesome-icon', FontAwesomeIcon)
-function checkBoxAndRemoveOthers(e: Event): void {
-  const $currentTarget: JQuery<EventTarget> = $(e.currentTarget!);
 
-  $currentTarget.siblings().children('.check_box_wrap').children('.check_box').removeClass('on');
-  $currentTarget.children('.check_box_wrap').children('.check_box').addClass('on');
+const checkBoxAndRemoveOthers = (e: Event) => {
+    const $currentTarget: JQuery<EventTarget> = $(e.currentTarget!);
+
+    $currentTarget.siblings().children('.check_box_wrap').children('.check_box').removeClass('on');
+    $currentTarget.children('.check_box_wrap').children('.check_box').addClass('on');
 }
 
-function toggleClassOn(e: Event): void {
-  const $currentTargetParents: JQuery<EventTarget> = $(e.currentTarget!).parent('li');
+const toggleClassOn = (e: Event) => {
+    const $currentTargetParents: JQuery<EventTarget> = $(e.currentTarget!).parent('li');
 
-  if ($currentTargetParents.hasClass('on')) {
-    $('#gnb>li').removeClass('on');
+    if ($currentTargetParents.hasClass('on')) {
+        $('#gnb>li').removeClass('on');
 
-  } else {
-    $('#gnb>li').removeClass('on');
+    } else {
+        $('#gnb>li').removeClass('on');
 
-    $currentTargetParents.addClass('on');
-  }
+        $currentTargetParents.addClass('on');
+    }
 }
 </script>

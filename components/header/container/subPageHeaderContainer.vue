@@ -37,18 +37,18 @@ const app = createApp({});
 library.add(fas, far)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
-function toggleSearchWrap(event: Event): void {
+const toggleSearchWrap = (event: Event) => {
     const $currentTargetParent = $(event.currentTarget!).parent('.search_wrap');
 
     if ($currentTargetParent.hasClass('on')) {
-      $currentTargetParent.removeClass('on');
+        $currentTargetParent.removeClass('on');
 
     } else {
-      $currentTargetParent.addClass('on');
+        $currentTargetParent.addClass('on');
     }
 }
 
-function minimizeSearchWrap(): void {
+const minimizeSearchWrap = () => {
     $('.search_wrap').removeClass('on');
 }
 </script>
