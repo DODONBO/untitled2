@@ -1,15 +1,16 @@
 <template>
-  <div>
-    <MainPageVisual/>
-    <MainPageHotSec/>
-    <TopBanner/>
-    <MainPagePopularContentsSec/>
-    <TopBanner/>
-    <MainPageMaterialContainer/>
-    <MainPageModelContainer/>
-    <MainPagePartnerContainer/>
-    <MainPageSignUpSec/>
-  </div>
+    <div>
+        <MainPageVisual/>
+        <MainPageHotSec/>
+        <TopBanner/>
+        <MainPagePopularContentsSec/>
+        <TopBanner/>
+        <MainPageMaterialContainer/>
+        <MainPageModelContainer/>
+        <MainPagePartnerContainer/>
+        <MainPageSignUpSec/>
+        <TagModal/>
+    </div>
 </template>
 
 <script>
@@ -22,14 +23,16 @@ import MainPageMaterialContainer from "../container/mainPageMaterialContainer.vu
 import MainPageModelContainer from "../container/mainPageModelContainer.vue";
 import MainPagePartnerContainer from "../container/mainPagePartnerContainer.vue";
 import MainPageSignUpSec from "../section/mainPageSignUpSec.vue";
+import TagModal from "../../../modal/tagModal.vue";
 
 export default {
-  components: {
-    MainPageSignUpSec,
-    MainPagePartnerContainer,
-    MainPageModelContainer,
-    MainPageMaterialContainer,
-    MainPagePopularMaterialSec, MainPagePopularContentsSec, TopBanner, MainPageHotSec, MainPageVisual
-  }
+    components: {
+        TagModal,
+        MainPageSignUpSec,
+        MainPagePartnerContainer,
+        MainPageModelContainer,
+        MainPageMaterialContainer,
+        MainPagePopularMaterialSec, MainPagePopularContentsSec, TopBanner, MainPageHotSec, MainPageVisual
+    }
 }
 </script>
