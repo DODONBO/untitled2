@@ -4,7 +4,7 @@
       <div class="title_wrap">
         <h2 class="main_sec_title">가장 많이 본 <span class="blue">파트너</span></h2>
         <div class="see_more_btn"><span>더보기</span>
-            <font-awesome-icon icon="plus"/>
+            <font-awesome-icon :icon="['fas', 'plus']" />
         </div>
       </div>
       <div class="contents_wrap partner">

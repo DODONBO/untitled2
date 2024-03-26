@@ -3,7 +3,7 @@
     <div class="inner">
       <div class="title_wrap right">
         <div class="see_more_btn"><span>더보기</span>
-          <font-awesome-icon icon="plus"/>
+            <font-awesome-icon :icon="['fas', 'plus']" />
         </div>
       </div>
       <div class="contents_wrap">

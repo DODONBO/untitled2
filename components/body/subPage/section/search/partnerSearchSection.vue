@@ -3,8 +3,7 @@
         <div class="inner">
             <div class="search_wrap">
                 <div class="search_icon">
-                    <font-awesome-icon icon="magnifying-glass"/>
-                </div>
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" />                </div>
                 <div class="search_input">
                     <input type="text" placeholder="검색">
                 </div>
