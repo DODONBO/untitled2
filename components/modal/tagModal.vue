@@ -3,7 +3,7 @@
         <div class="modal_title_wrap">
             <div class="modal_title">키워드</div>
             <div class="close_btn">
-                <font-awesome-icon :icon="['fas', 'xmark']" />
+                <font-awesome-icon icon="xmark"/>
             </div>
         </div>
         <div class="tag_wrap">

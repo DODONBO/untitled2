@@ -4,7 +4,7 @@
       <div class="title_wrap">
         <h2 class="main_sec_title">가장 많이 본 <span class="blue">파트너</span></h2>
         <div class="see_more_btn"><span>더보기</span>
-          <font-awesome-icon :icon="['fas', 'plus']" />
+            <font-awesome-icon icon="plus"/>
         </div>
       </div>
       <div class="contents_wrap partner">
@@ -87,3 +87,15 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+import {createApp} from "vue";
+import {library} from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from "@fortawesome/free-regular-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+
+const app = createApp({});
+
+library.add(fas, far)
+app.component('font-awesome-icon', FontAwesomeIcon)
+</script>

@@ -4,7 +4,7 @@
       <div class="title_wrap">
         <h2 class="main_sec_title">인기 콘텐츠</h2>
         <div class="see_more_btn"><span>더보기</span>
-          <font-awesome-icon :icon="['fas', 'plus']" />
+          <font-awesome-icon icon="plus"/>
         </div>
       </div>
       <div class="contents_wrap">

@@ -6,13 +6,13 @@
       <div class="user_menu_wrap">
         <div class="search_wrap">
           <div class="search_icon" @click="toggleSearchWrap">
-            <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+              <font-awesome-icon icon="magnifying-glass"/>
           </div>
           <div class="search_input">
             <input type="text">
           </div>
           <div class="search_close_btn" @click="minimizeSearchWrap()">
-            <font-awesome-icon :icon="['fas', 'xmark']" />
+            <font-awesome-icon icon="xmark"/>
           </div>
         </div>
         <div class="user_menu_container">

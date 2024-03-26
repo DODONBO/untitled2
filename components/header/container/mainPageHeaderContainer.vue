@@ -11,7 +11,7 @@
           </select>
           <input type="text" placeholder="어떤 건축물이 궁금하세요?">
           <div class="main_page_search_btn">
-            <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
+              <font-awesome-icon icon="magnifying-glass"/>
           </div>
         </div>
         <div class="right_sec"></div>

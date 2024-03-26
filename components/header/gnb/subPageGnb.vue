@@ -10,7 +10,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box on">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               인기순
@@ -18,7 +18,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               추천순
@@ -26,7 +26,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               등록순
@@ -46,7 +46,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box on">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               인기순
@@ -54,7 +54,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               추천순
@@ -62,7 +62,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon icon="check"/>
                 </div>
               </div>
               등록순
@@ -82,7 +82,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box on">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               인기순
@@ -90,7 +90,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               추천순
@@ -98,7 +98,7 @@
             <li @click="checkBoxAndRemoveOthers($event)">
               <div class="check_box_wrap">
                 <div class="check_box">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                    <font-awesome-icon icon="check"/>
                 </div>
               </div>
               등록순
