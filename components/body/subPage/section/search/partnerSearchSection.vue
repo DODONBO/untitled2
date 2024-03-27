@@ -8,8 +8,8 @@
                     <input type="text" placeholder="검색">
                 </div>
                 <div class="search_type_btn_wrap">
-                    <div class="search_type_btn on">건축모델</div>
-                    <div class="search_type_btn">파트너</div>
+                    <div class="search_type_btn">건축모델</div>
+                    <div class="search_type_btn on">파트너</div>
                     <div class="search_type_btn">건축자재</div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="gnb_wrap">
+  <nav class="gnb_wrap on">
     <ul id="gnb">
       <li>
         <a @click="toggleClassOn($event)">건축모델
