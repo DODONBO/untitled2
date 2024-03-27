@@ -32,10 +32,10 @@
                 <div class="name">주식회사 씨엠엑스</div>
                 <div class="addr"><font-awesome-icon :icon="['fas', 'location-dot']" /> 서울 금천구 디지털로9길 32 (가산동, 갑을그레이트밸리) B동 16층 1603,1604호</div>
                 <div class="link_btn_wrap">
-                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'phone']" /> 연락처</div>
-                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'envelope']" /> 이메일</div>
-                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'link']" /> 사이트</div>
-                    <div class="link_btn"><font-awesome-icon :icon="['far', 'calendar']" /> 문의하기</div>
+                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'phone']" /> <span>연락처</span></div>
+                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'envelope']" /> <span>이메일</span></div>
+                    <div class="link_btn"><font-awesome-icon :icon="['fas', 'link']" /> <span>사이트</span></div>
+                    <div class="link_btn"><font-awesome-icon :icon="['far', 'calendar']" /> <span>문의하기</span></div>
                 </div>
             </div>
         </div>
